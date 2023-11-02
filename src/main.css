@@ -477,14 +477,14 @@ h2 {
   }
 }
 .travelers .sectionContainer .travelersContainer .singleTraveler .travelerName {
-  bottom: -100%;
+  bottom: 0;
   width: 100%;
   height: -moz-max-content;
   height: max-content;
   background: var(--whiteColor);
   padding: 1.5rem 1rem;
   transition: var(--transition);
-  animation: animatedBorders 2.3 infinite;
+  animation: animatedBorders 2.3s infinite;
 }
 .travelers .sectionContainer .travelersContainer .singleTraveler .travelerName span {
   display: block;
