@@ -477,7 +477,7 @@ h2 {
   }
 }
 .travelers .sectionContainer .travelersContainer .singleTraveler .travelerName {
-  bottom: 0;
+  bottom: -100%;
   width: 100%;
   height: -moz-max-content;
   height: max-content;
