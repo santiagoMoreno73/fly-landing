@@ -60,7 +60,11 @@ const Travelers = () => {
           Top travelers of this month!
         </h2>
 
-        <div className="travelersContainer grid">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2500"
+          className="travelersContainer grid"
+        >
           {/* single passanger card */}
           {travelers.map(
             ({
@@ -71,12 +75,7 @@ const Travelers = () => {
               socialLink,
             }) => {
               return (
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="2500"
-                  className="singleTraveler"
-                  key={id}
-                >
+                <div className="singleTraveler" key={id}>
                   <img
                     src={destinationImage}
                     alt="photo destination"
