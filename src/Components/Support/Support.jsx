@@ -66,7 +66,7 @@ const Support = () => {
             </div>
           </div>
 
-          <div data-aos="fade-left" data-aos-duration="2500" className="imgDiv">
+          <div data-aos="fade-up" data-aos-duration="2500" className="imgDiv">
             <img src={planning_travel} alt="photo airplane" />
           </div>
         </div>
